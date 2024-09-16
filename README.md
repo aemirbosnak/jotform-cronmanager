@@ -10,21 +10,6 @@
     - Prerequisites
     - Host Setup
     - Worker Setup
-4. Usage
-    - Creating Cronjobs
-    - Managing Servers and Server Groups
-    - Publishing Cronjobs
-    - Worker Operations
-5. API Documentation
-    - Endpoints
-    - Request/Response Examples
-6. Google Pub/Sub Integration
-7. Docker Deployment
-    - Host Deployment
-    - Worker Deployment
-8. Examples
-9. Contributing
-10. License
 
 ## Introduction
 

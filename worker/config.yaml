@@ -1,0 +1,14 @@
+LOG_LEVEL: 10
+# FATAL/CRITICAL: 50
+# ERROR: 40
+# WARN/WARNING: 30
+# INFO: 20
+# DEBUG: 10
+
+PROJECT_ID: "jotform-cronmanager"
+
+API_ADDRESS: "http://0.0.0.0:8080" # base api address
+
+LISTENING_CYCLE_TIME: 40 # seconds, how often the worker checks for new messages
+
+LISTENING_TIMEOUT: 8 # seconds, how long the worker listens for a specific subscription

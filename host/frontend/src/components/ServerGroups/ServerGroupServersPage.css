@@ -1,0 +1,119 @@
+.server-group-page {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.add-server-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.server-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.server-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.server-list-item p {
+    margin: 0;
+}
+
+/* .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-controls button {
+    margin: 0 5px;
+} */
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.status-messages {
+    margin-top: 20px;
+    color: green;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.pagination-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.pagination-controls span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.server-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.go-back-button button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.go-back-button button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.editing-status {
+    display: flex;
+    align-items: center;
+}
+
+.editing-message {
+    color: green;
+    font-weight: bold;
+    margin-left: 10px;
+}

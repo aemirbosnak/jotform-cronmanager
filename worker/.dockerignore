@@ -1,0 +1,4 @@
+Dockerfile
+workernode.log
+.dockerignore
+__pycache__

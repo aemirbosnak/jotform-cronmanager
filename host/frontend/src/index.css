@@ -1,0 +1,130 @@
+.global-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.cardStatus:hover {
+    transform: scale(1.05);
+}
+
+.cardSG-green {
+    background-color: green;
+}
+
+.cardSG-red {
+    background-color: red;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    list-style: none;
+}
+
+.pagination li {
+    margin: 0 0.5rem;
+}
+
+.pagination li a {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cardSG-orange {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem; /* Adjust padding to make rows shorter */
+    margin-bottom: 0.5rem; /* Adjust margin to make rows shorter */
+
+}
+.server-popup {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    z-index: 1000;
+}
+
+#root, html {
+    background-color: #1C1C1C;
+    font-family: 'Roboto', sans-serif;
+}
+.card-body{
+    background-color: #252525;
+}
+.cronjobTitle{
+    color: #61dafb
+}
+.cronjobName{
+    color:#E0E0E0
+}
+
+.sgName{
+    color: #A0A0A0;
+}
+
+.cronjobText{
+    color: #E0E0E0;
+}
+
+.polygon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.polygon-button:hover {
+    background-color: transparent;
+}
+
+.navbarJotform{
+    display: flex; 
+    justify-content: space-between;
+    align-items: end;
+    height: 1rem;
+}
+.innerDiv{
+    display: flex;
+    align-items: end;
+    padding: 0;
+    margin: 0;
+}
+
+.divJotform{
+    width: 6px;
+    height: 25px;
+    border-right: 1px solid #E0E0E0;   
+    margin-left: 7px; 
+    margin-right: 7px; 
+}
+
+.divEnterprise{
+    position: relative;
+    top: 0.35rem;
+    margin-left: 7px;
+}
+
+.cronjob_card{
+    background-color: #252525;
+    border: 1px solid #3E3E3E;
+}
+
+.cronjob-list{
+    width: 100%;
+}
+
+
